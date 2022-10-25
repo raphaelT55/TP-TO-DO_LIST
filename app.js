@@ -14,4 +14,5 @@ catch(e){
     })
     alertElement.innerText = 'Impossible de charger cette ressource'
     document.body.prepend(alertElement)
+    console.error(e);
 }
